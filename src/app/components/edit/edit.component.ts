@@ -24,9 +24,9 @@ export class EditComponent implements OnInit {
     private router: Router
   ) {
     this.editForm = this.formBuilder.group({
-      title: [''],
-      content: [''],
-      author: ['']
+      name: [''],
+      apellido_p: [''],
+      apellido_m: ['']
     })
    }
 
@@ -37,9 +37,9 @@ export class EditComponent implements OnInit {
     this.postService.getPostById(id).subscribe(res => {
       this.postRef = res;
       this.editForm = this.formBuilder.group({
-        title: [this.postRef.title],
-        content: [this.postRef.content],
-        author: [this.postRef.author]        
+        name: [this.postRef.name],
+        apellido_p: [this.postRef.apellido_p],
+        apellido_m: [this.postRef.apellido_m]        
       })            
     })
   }

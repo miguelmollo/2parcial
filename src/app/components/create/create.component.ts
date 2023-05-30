@@ -22,9 +22,9 @@ export class CreateComponent implements OnInit {
     public router:Router
   ) {
     this.postForm = this.formBuilder.group({
-      title: [''],
-      content: [''],
-      author: ['']
+      name: [''],
+      apellido_p: [''],
+      apellido_m: ['']
     })
   }
 

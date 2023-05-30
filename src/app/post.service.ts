@@ -54,9 +54,9 @@ export class PostService {
       .collection("posts")
       .doc(id)
       .update({
-        title: post.title,
-        content: post.content,
-        author: post.author
+        name: post.name,
+        apellido_p: post.apellido_p ,
+        apellido_m: post.apellido_m
       });
   }
 

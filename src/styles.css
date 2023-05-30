@@ -1,6 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 body {
     background-color: #f1f5fe;
+    background: url(https://w0.peakpx.com/wallpaper/560/191/HD-wallpaper-anime-landscape-ambient-japan-pretty.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   color: #f1f5fe;
 }
 .bg-gradient {  
     background: linear-gradient(to right, #606c88, #3f4c6b) !important;
